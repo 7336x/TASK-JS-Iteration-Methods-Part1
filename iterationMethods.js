@@ -5,7 +5,7 @@ const numbers = [10, 13, 20, 25, 38, 35, 40];
 const greaterThanTwentyFive = (numbers) => {
   return numbers.filter((number) => number >= 25); // write your code here...
 };
-
+//
 // 2) Using `divisibleByFive` function return a new array containing numbers that are divisible by 5.
 const divisibleByFive = (numbers) => {
   return numbers.filter((number) => number % 5 === 0); // write your code here...
